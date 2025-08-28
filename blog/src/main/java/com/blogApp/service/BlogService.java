@@ -1,0 +1,39 @@
+package com.blogApp.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.blogApp.entity.Blog;
+import com.blogApp.repository.BlogRepository;
+
+@Service
+public class BlogService {
+	
+	BlogRepository blogRepository;
+	public BlogService(BlogRepository blogRepository) {
+		this.blogRepository = blogRepository;
+	}
+	
+	public Blog createBlog(Blog blog) {
+		return blogRepository.save(blog);
+	}
+	
+	public List<Blog> getAllBlogs() {
+		return blogRepository.findAll();
+	}
+	
+	public Blog getBlogById(int id) {
+		return blogRepository.findById(id).orElseThrow(()->new RuntimeException("Blog is not found"));
+	}
+	
+	public Blog editBlog(Blog blog, int id) {
+		blog.setId(id);
+		return blogRepository.save(blog);
+	}
+	
+	public void deleteById(int id) {
+		blogRepository.deleteById(id);
+	}
+
+}

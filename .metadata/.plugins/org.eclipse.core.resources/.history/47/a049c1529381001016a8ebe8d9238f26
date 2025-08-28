@@ -1,0 +1,21 @@
+package com.blogApp.service;
+
+import org.springframework.stereotype.Service;
+
+import com.blogApp.entity.Blog;
+import com.blogApp.repository.BlogRepository;
+
+@Service
+public class BlogService {
+	
+	BlogRepository blogRepository;
+	
+	public BlogService(BlogRepository blogRepository) {
+		this.blogRepository = blogRepository;
+	}
+	
+	public Blog createBlog(Blog blog) {
+		return blogRepository.save(blog);
+	}
+
+}
