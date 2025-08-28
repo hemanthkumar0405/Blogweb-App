@@ -1,4 +1,4 @@
-# My Blog App — React + Spring Boot + MySQL Blog Platform
+# Blog App — React + Spring Boot + MySQL Blog Platform
 
 A full-stack Blog Application built with Spring Boot (Java) and MySQL for the backend, and optionally React.js for the frontend. The app allows users to create, update, delete, and read blog posts with secure authentication.
 
