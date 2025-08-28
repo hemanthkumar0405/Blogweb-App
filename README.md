@@ -16,8 +16,8 @@ A full-stack Blog Application built with Spring Boot (Java) and MySQL for the ba
 - Tools: Maven, Postman, STS4, GitHub)
 
 ## 📁 Project Structure
-- Frontend path: `./BLOG-APP/my-blog-app`
-- Backend path: `./BLOG-APP/blog`
+- Frontend path: `./Blogweb-App/my-blog-app`
+- Backend path: `./Blogweb-App/blog`
 
 ## 📚 Example API Endpoints
 | Method | Endpoint            | Description           |
