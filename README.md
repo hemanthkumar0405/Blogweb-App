@@ -1,6 +1,6 @@
 # My Blog App — React + Spring Boot + MySQL Blog Platform
 
-A full‑stack Blog application built with **Spring Boot, React, MySQL**. It supports user authentication (JWT), creating/editing/deleting blog posts, and viewing lists of posts with details.
+A full-stack Blog Application built with Spring Boot (Java) and MySQL for the backend, and optionally React.js for the frontend. The app allows users to create, update, delete, and read blog posts with secure authentication.
 
 ## ✨ Features
 - Create, read, update, delete (CRUD) blog posts
@@ -10,26 +10,22 @@ A full‑stack Blog application built with **Spring Boot, React, MySQL**. It sup
 - MySQL persistence
 
 ## 🧱 Tech Stack
-- Backend: Spring Boot (Maven)  
-- Frontend: React (Vite)
+- Backend: Java, Spring Boot, Spring Data JPA, Hibernate
 - Database: MySQL
-- Auth: JWT (JSON Web Tokens)
+- Frontend: React.js, Axios, React Router
+- Tools: Maven, Postman, STS4, GitHub)
 
 ## 📁 Project Structure
 - Frontend path: `./BLOG-APP/my-blog-app`
 - Backend path: `./BLOG-APP/blog`
 
 ## 📚 Example API Endpoints
-| Method | Endpoint             | Description           |
-|--------|----------------------|-----------------------|
-| POST   | /api/auth/signup     | Register a new user   |
-| POST   | /api/auth/login      | Authenticate user     |
-| GET    | /api/posts           | List all posts        |
-| GET    | /api/posts/{id}      | Get post by ID        |
-| POST   | /api/posts           | Create a new post     |
-| PUT    | /api/posts/{id}      | Update a post         |
-| DELETE | /api/posts/{id}      | Delete a post         |
-
-> Tip: Import your API collection in Postman and test endpoints with/without JWT.
+| Method | Endpoint            | Description           |
+|--------|---------------------|-----------------------|
+| GET    | /blog               | List all posts        |
+| GET    | /blog/{id}          | Get post by ID        |
+| POST   | /blog               | Create a new post     |
+| PUT    | /blog/{id}          | Update a post         |
+| DELETE | /blog/{id}          | Delete a post         |
 
 Happy building! ✨
