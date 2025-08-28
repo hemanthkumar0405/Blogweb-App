@@ -28,4 +28,8 @@ A full-stack Blog Application built with Spring Boot (Java) and MySQL for the ba
 | PUT    | /blog/{id}          | Update a post         |
 | DELETE | /blog/{id}          | Delete a post         |
 
+## 🧪 How to Run Locally
+1. **Clone the repository:**
+   git clone https://github.com/hemanthkumar0405/Blogweb-App.git
+
 Happy building! ✨
