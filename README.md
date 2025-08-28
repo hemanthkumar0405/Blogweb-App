@@ -19,14 +19,6 @@ A full‑stack Blog application built with **Spring Boot, React, MySQL**. It sup
 - Frontend path: `./BLOG-APP/my-blog-app`
 - Backend path: `./BLOG-APP/blog`
 
-## 🚀 Getting Started (Local)
-
-### Prerequisites
-- **Java 21**
-- **Maven 3.8+**
-- **Node.js LTS** (v18+ recommended) & npm
-- **MySQL 8+**
-
 ## 📚 Example API Endpoints
 | Method | Endpoint             | Description           |
 |--------|----------------------|-----------------------|
